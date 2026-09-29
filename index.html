@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rádio CZHERBIE</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .prehravac {
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+            width: 100%;
+            max-width: 400px;
+        }
+        h1 {
+            color: #ff9900;
+            margin-top: 0;
+        }
+        audio {
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="prehravac">
+        <h1>📻 Rádio CZHERBIE</h1>
+        <p>Živé vysílání (Mixxx)</p>
+        
+        <!-- Přehrávač s tvým nezabezpečeným Shoutcast streamem -->
+        <audio controls autoplay>
+            <source src="http://31.31.73.75:14868/;" type="audio/mpeg">
+            Tvůj prohlížeč nepodporuje přehrávání zvuku.
+        </audio>
+    </div>
+
+</body>
+</html>
